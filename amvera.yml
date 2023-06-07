@@ -1,1 +1,12 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.11.3
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: bot12.py
+  persistenceMount: /data
+  containerPort: 80
 
